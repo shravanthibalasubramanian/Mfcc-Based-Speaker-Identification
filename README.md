@@ -15,17 +15,6 @@ We used the **Speaker Recognition Dataset** available on Kaggle:
 
 ---
 
-## Project Structure
-mfcc_speaker_id/
-│
-├── notebooks/ 
-│ ├── 1_ML_Model.ipynb 
-│ ├── 2_Regression_Classification.ipynb # Notebook for regression & classification comparison
-│ └── 3_CNN_Model.ipynb
-│
-├── README.md 
-├── requirements.txt
-
 ## Features & Methods
 ### 1. MFCC Feature Extraction
 - Extracts **13–40 MFCC coefficients** per audio file using `librosa`.
